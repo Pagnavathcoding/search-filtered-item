@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+$dark: #20232a;
+$react: #61dafb;
+$gray: gray;
+$light: #eee;
+$dark-light: #282c34;
+body {
+    background: $dark;
+}
+main {
+    width: 100%;
+    padding-bottom: 1em;
+    header {
+        width: 100%;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        h1 {
+            font-size: 25px;
+            color: $light;
+        }
+        input {
+            width: 300px;
+            height: 40px;
+            border: none;
+            outline: none;
+            margin: 1em 0;
+            font-size: 16px;
+            padding: 0 1em;
+            background: none;
+            border: 0.1em solid $react;
+            border-radius: 5px;
+            color: $gray;
+        }
+        p {
+            font-size: 20px;
+            color: $react;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 0.1em solid $react;
+            border-radius: 50%;
+        }
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        .item {
+            width: 300px;
+            height: 300px;
+            background: $dark-light;
+            margin: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            border-radius: 5px;
+            border-bottom: 0.1em solid $react;
+            padding: 1em;
+            img {
+                height: 150px;
+            }
+            h3 {
+                color: $react;
+                font-size: 20px;
+                padding: 0.5em 0 0 0;
+            }
+            p {
+                color: $gray;
+            }
+        }
+    }
+    .error {
+        width: 100%;
+        padding: 3em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #ff4242;
+    }
+}

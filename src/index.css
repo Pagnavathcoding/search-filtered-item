@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  background: #20232a;
+}
+
+main {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+main header {
+  width: 100%;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main header h1 {
+  font-size: 25px;
+  color: #eee;
+}
+
+main header input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 1em 0;
+  font-size: 16px;
+  padding: 0 1em;
+  background: none;
+  border: 0.1em solid #61dafb;
+  border-radius: 5px;
+  color: gray;
+}
+
+main header p {
+  font-size: 20px;
+  color: #61dafb;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border: 0.1em solid #61dafb;
+  border-radius: 50%;
+}
+
+main .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .container .item {
+  width: 300px;
+  height: 300px;
+  background: #282c34;
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 5px;
+  border-bottom: 0.1em solid #61dafb;
+  padding: 1em;
+}
+
+main .container .item img {
+  height: 150px;
+}
+
+main .container .item h3 {
+  color: #61dafb;
+  font-size: 20px;
+  padding: 0.5em 0 0 0;
+}
+
+main .container .item p {
+  color: gray;
+}
+
+main .error {
+  width: 100%;
+  padding: 3em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #ff4242;
+}
+/*# sourceMappingURL=index.css.map */
